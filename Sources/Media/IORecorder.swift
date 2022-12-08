@@ -36,7 +36,7 @@ public class IORecorder {
             AVVideoWidthKey: 0
         ]
     ]
-
+    public var writer: AVAssetWriter?
     /// Specifies the delegate.
     public weak var delegate: IORecorderDelegate?
     /// Specifies the recorder settings.
@@ -51,7 +51,6 @@ public class IORecorder {
         }
         return outputSettings.count == writer.inputs.count
     }
-    private var writer: AVAssetWriter?
     private var writerInputs: [AVMediaType: AVAssetWriterInput] = [:]
     private var pixelBufferAdaptor: AVAssetWriterInputPixelBufferAdaptor?
     private var audioPresentationTime = CMTime.zero

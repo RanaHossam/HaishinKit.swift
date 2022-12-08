@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/shogo4405/HaishinKit.swift"
   s.license      = "New BSD"
-  s.author       = { "shogo4405" => "shogo4405@gmail.com" }
-  s.authors      = { "shogo4405" => "shogo4405@gmail.com" }
-  s.source       = { :git => "https://github.com/shogo4405/HaishinKit.swift.git", :tag => "#{s.version}" }
+  s.author       = { "RanaHossam" => "ranahossam263@gmail.com" }
+  s.authors      = { "RanaHossam" => "ranahossam263@gmail.com" }
+  s.source       = { :git => "https://github.com/RanaHossam/HaishinKit.swift.git", :tag => "#{s.version}" }
 
   s.ios.deployment_target = "11.0"
   s.ios.source_files = "Platforms/iOS/*.{h,swift}"
